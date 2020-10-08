@@ -1,5 +1,4 @@
 const recipeHelper = require('./helpers/recipe.helper');
-const debug = require('debug')('app:recipe');
 
 const recipesByIngredients = async (req, res, next) => {
     try {

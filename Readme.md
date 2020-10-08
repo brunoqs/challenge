@@ -15,6 +15,18 @@ Solução para o [desafio](challenge.md).
 
 ## Execução
 
+Rodando a aplicação em produção:
+```shell
+docker-compose up
+```
+
+Rodando a aplicação em dev:
+```shell
+docker-compose -f docker-compose.dev.yml up 
+```
 
 ## Testes
 
+```shell
+docker-compose -f docker-compose.test.yml up 
+```
